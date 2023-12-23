@@ -1,6 +1,6 @@
-package com.vinsguru.pages.vendorportal;
+package com.sanseyvich.pages.vendorportal;
 
-import com.vinsguru.pages.AbstractPage;
+import com.sanseyvich.pages.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

@@ -1,6 +1,6 @@
-package com.vinsguru.pages.flightreservation;
+package com.sanseyvich.pages.flightreservation;
 
-import com.vinsguru.pages.AbstractPage;
+import com.sanseyvich.pages.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

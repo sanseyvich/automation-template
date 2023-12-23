@@ -1,4 +1,4 @@
-package com.vinsguru.util;
+package com.sanseyvich.util;
 
 public class Constants {
 

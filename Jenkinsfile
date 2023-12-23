@@ -12,7 +12,7 @@ pipeline{
 
         stage('Build Image'){
             steps{
-                sh 'docker build -t=vinsdocker/selenium:latest .'
+                sh 'docker build -t=sanseyvich/automation-template:latest .'
             }
         }
 
@@ -22,9 +22,9 @@ pipeline{
             }
             steps{
                 sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
-                sh 'docker push vinsdocker/selenium:latest'
-                sh "docker tag vinsdocker/selenium:latest vinsdocker/selenium:${env.BUILD_NUMBER}"
-                sh "docker push vinsdocker/selenium:${env.BUILD_NUMBER}"
+                sh 'docker push sanseyvich/automation-template:latest'
+                sh "docker tag sanseyvich/automation-template:latest sanseyvich/automation-template:${env.BUILD_NUMBER}"
+                sh "docker push sanseyvich/automation-template:${env.BUILD_NUMBER}"
             }
         }
 

@@ -1,12 +1,12 @@
-package com.vinsguru.tests.vendorportal;
+package com.sanseyvich.tests.vendorportal;
 
-import com.vinsguru.pages.vendorportal.DashboardPage;
-import com.vinsguru.pages.vendorportal.LoginPage;
-import com.vinsguru.tests.AbstractTest;
-import com.vinsguru.tests.vendorportal.model.VendorPortalTestData;
-import com.vinsguru.util.Config;
-import com.vinsguru.util.Constants;
-import com.vinsguru.util.JsonUtil;
+import com.sanseyvich.pages.vendorportal.DashboardPage;
+import com.sanseyvich.pages.vendorportal.LoginPage;
+import com.sanseyvich.tests.vendorportal.model.VendorPortalTestData;
+import com.sanseyvich.tests.AbstractTest;
+import com.sanseyvich.util.Config;
+import com.sanseyvich.util.Constants;
+import com.sanseyvich.util.JsonUtil;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;

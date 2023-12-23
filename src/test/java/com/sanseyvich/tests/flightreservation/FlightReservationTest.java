@@ -1,11 +1,11 @@
-package com.vinsguru.tests.flightreservation;
+package com.sanseyvich.tests.flightreservation;
 
-import com.vinsguru.pages.flightreservation.*;
-import com.vinsguru.tests.AbstractTest;
-import com.vinsguru.tests.flightreservation.model.FlightReservationTestData;
-import com.vinsguru.util.Config;
-import com.vinsguru.util.Constants;
-import com.vinsguru.util.JsonUtil;
+import com.sanseyvich.pages.flightreservation.*;
+import com.sanseyvich.tests.AbstractTest;
+import com.sanseyvich.tests.flightreservation.model.FlightReservationTestData;
+import com.sanseyvich.util.Config;
+import com.sanseyvich.util.Constants;
+import com.sanseyvich.util.JsonUtil;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
